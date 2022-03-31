@@ -5,10 +5,7 @@
 ```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
 
 ## Usage
-In your command line, enter the following command to start the game:
-```
-npx adam-cli-quiz
-```
+Open up your command line and enter `npx adam-cli-quiz` to start the game.
 This only works because I uploaded the package to [npm](https://www.npmjs.com/package/adam-cli-quiz) and added it to my package.json.
   
 ## Packages Used

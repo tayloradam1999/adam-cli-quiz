@@ -6,7 +6,7 @@
 
 ## Usage
 Open up your command line and enter `npx adam-cli-quiz` to start the game.
-This only works because I uploaded the package to [npm](https://www.npmjs.com/package/adam-cli-quiz) and added it to my package.json.
+
   
 ## Packages Used
 

@@ -2,7 +2,7 @@
 
 ![](./readme_assets/Animation.gif)
 
-```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
+**adam-cli-quiz** is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
 
 ## Usage
 Open up your command line and enter `npx adam-cli-quiz` to start the game.

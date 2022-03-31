@@ -1,11 +1,12 @@
-# adam-cli-quiz
+# adam-cli-quiz-v1
 
 ![](./readme_assets/Animation.gif)
 
-**adam-cli-quiz** is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
+**adam-cli-quiz-v1** is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
 
 ## Usage
-If you have ```npm``` installed, you can start the game by simply running ```npx adam-cli-quiz```.
+If you have ```npm``` installed, you can start the game by simply running ```npx adam-cli-quiz-v1```.
+  
 If not, you can visit this [link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to download and install ```npm```.
 
 ## Packages Used

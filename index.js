@@ -10,7 +10,7 @@ import { createSpinner } from 'nanospinner';
 
 let playerName;
 
-const sleep = (ms = 4000) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms = 10000) => new Promise((r) => setTimeout(r, ms));
 
 async function startProgram() {
 	const programTitle = chalkAnimation.rainbow(
@@ -52,7 +52,7 @@ async function handleAnswer(isCorrect) {
 	await sleep(200);
 
 	if (isCorrect) {
-		spinner.success({ text: `${chalk.green('Correct, ')}` + `${chalk.green(playerName)}!\n` });
+		spinner.success({ text: `${chalk.cyan('Correct, ')}` + `${chalk.cyan(playerName)}!\n` });
 	} else {
 		spinner.error({ text: `${chalk.red('Incorrect, ')}` + `${chalk.red(playerName)}` + `${chalk.red('!')}`
 	 + `\n` + `The game will now be ${chalk.red('Terminated!')}\n` });
@@ -62,7 +62,7 @@ async function handleAnswer(isCorrect) {
 
 function winner() {
 	console.clear();
-	const msg = `Congrats, ${playerName}!\n You are Adam Taylor's biggest fan!`;
+	const msg = `Congrats, ${playerName}!\n You are Adam's #1 Fan!`;
 
 	figlet(msg, (err, data) => {
 		console.log(gradient.pastel.multiline(data));
@@ -149,10 +149,10 @@ async function question5() {
 
 console.clear();
 await startProgram();
-await askName();
-await question1();
-await question2();
-await question3();
-await question4();
-await question5();
-winner();
+// await askName();
+// await question1();
+// await question2();
+// await question3();
+// await question4();
+// await question5();
+// winner();

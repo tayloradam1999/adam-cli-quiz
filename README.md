@@ -1,8 +1,23 @@
 # adam-cli-quiz
 
 ```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
-  
-This project was inspired by [Fireship.io](https://fireship.io/).
+
+## Installation
+Clone the repository to your local machine:
+```
+git clone https://github.com/tayloradam1999/adam-cli-quiz.git
+```
+Then, move into the directory and install the dependencies:
+```
+cd adam-cli-quiz
+npm install
+```
+
+## Usage
+To start the game, run the following command:
+```
+node .
+```
   
 ## Packages Used
 
@@ -16,3 +31,6 @@ This project was inspired by [Fireship.io](https://fireship.io/).
 ```sh
 npm i chalk chalk-animation figlet gradient-string inquirer nanospinner
 ```
+
+## Credits
+This game was inspired by [Fireship.io](https://fireship.io/).

@@ -1,0 +1,29 @@
+{
+  "name": "adam-cli-quiz",
+  "version": "1.0.0",
+  "description": "```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayloradam1999/adam-cli-quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tayloradam1999/adam-cli-quiz/issues"
+  },
+  "homepage": "https://github.com/tayloradam1999/adam-cli-quiz#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.2",
+    "nanospinner": "^1.0.0"
+  }
+}

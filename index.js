@@ -10,7 +10,7 @@ import { createSpinner } from 'nanospinner';
 
 let playerName;
 
-const sleep = (ms = 10000) => new Promise((r) => setTimeout(r, ms));
+const sleep = (ms = 4000) => new Promise((r) => setTimeout(r, ms));
 
 async function startProgram() {
 	const programTitle = chalkAnimation.rainbow(

@@ -4,22 +4,12 @@
 
 ```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
 
-## Installation
-Clone the repository to your local machine:
-```
-git clone https://github.com/tayloradam1999/adam-cli-quiz.git
-```
-Then, move into the directory and install the dependencies:
-```
-cd adam-cli-quiz
-npm install
-```
-
 ## Usage
-To start the game, run the following command:
+In your command line, enter the following command to start the game:
 ```
-node .
+npx adam-cli-quiz
 ```
+This only works because I uploaded the package to [npm](https://www.npmjs.com/package/adam-cli-quiz) and added it to my package.json.
   
 ## Packages Used
 

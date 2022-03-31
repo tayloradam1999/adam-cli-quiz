@@ -1,5 +1,7 @@
 # adam-cli-quiz
 
+![](./readme_assets/Animation.gif)
+
 ```adam-cli-quiz``` is a command line game that quizzes the user on a series of questions based around [Adam Taylor](https://github.com/tayloradam1999)'s programming taste.
 
 ## Installation

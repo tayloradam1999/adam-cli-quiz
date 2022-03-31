@@ -14,18 +14,18 @@ const sleep = (ms = 4000) => new Promise((r) => setTimeout(r, ms));
 
 async function startProgram() {
 	const programTitle = chalkAnimation.rainbow(
-		'Welcome to adam-cli-quiz! \n'
+		'Welcome to adam-cli-quiz-v1! \n'
 	);
 
 	await sleep();
 	programTitle.stop();
 
 	console.log(`
-		adam-cli-quiz initalized.
+		adam-cli-quiz-v1 initalized.
 
 		${chalk.bgBlue('HOW TO PLAY')}
 
-		You will be asked a series of questions all centered around ${gradient.pastel('Adam Taylor')}.
+		You will be asked 5 questions all centered around ${gradient.pastel('Adam Taylor')}.
 		If you answer incorrectly, the game will be ${chalk.bgRed('terminated')}.
 		So answer carefully...
 
@@ -149,10 +149,10 @@ async function question5() {
 
 console.clear();
 await startProgram();
-// await askName();
-// await question1();
-// await question2();
-// await question3();
-// await question4();
-// await question5();
-// winner();
+await askName();
+await question1();
+await question2();
+await question3();
+await question4();
+await question5();
+winner();
